@@ -55,9 +55,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-
+  
+  <img src="images/Voiceover1.png" width="375px" alt="spraakfunctie">
+  <img src="images/voiceover2.png" width="375px" alt="spraakfunctie1">
+    
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+
+  
 
 </details>
 
