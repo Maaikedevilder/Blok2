@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
- <img src="images/.png" width="375px" alt="dopperproducten">
+ <img src="images/homepage.png" width="375px" alt="dopperproducten">
  
 
   #### Screenshot(s) van de tweede pagina (small screen):
@@ -57,6 +57,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
   
   <img src="images/Voiceover1.png" width="375px" alt="spraakfunctie">
+  
   <img src="images/voiceover2.png" width="375px" alt="spraakfunctie1">
     
   ### Bevindingen
