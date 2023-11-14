@@ -1,4 +1,4 @@
-# Procesverslag
+<img width="1439" alt="Schermafbeelding 2023-11-14 om 09 37 40" src="https://github.com/Maaikedevilder/Blok2/assets/150731226/0900c1b0-b6da-4022-a1f4-5bdc2afe7b85"># Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+ Maaike de Vilder
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+ Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  hier je focus (kies uit responsive óf surface plane) : Surface plane
  
 </details>
 
@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://dopper.com/nl?_gl=1*boh6cs*_ga*MTY0Mjk4MjQzMC4xNjk5OTQ5MzU5*_ga_CCQ8WWERJQ*MTY5OTk0OTM1OC4xLjEuMTY5OTk0OTY2My41OC4wLjA. 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
