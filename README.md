@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img width="1439" alt="Schermafbeelding 2023-11-14 om 09 37 40" src="https://github.com/Maaikedevilder/Blok2/assets/150731226/0900c1b0-b6da-4022-a1f4-5bdc2afe7b85"> 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
