@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://dopper.com/nl?_gl=1*boh6cs*_ga*MTY0Mjk4MjQzMC4xNjk5OTQ5MzU5*_ga_CCQ8WWERJQ*MTY5OTk0OTM1OC4xLjEuMTY5OTk0OTY2My41OC4wLjA. 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
- <img src="images/homepage.png" width="375px" alt="dopperproducten">
+Hompagina van Dopper
+ <img src="images/homepage.png" width="375px" alt="homepagina">
  
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Dopperproducten
   <img src="images/pagina2.png" width="375px" alt="dopperproducten">
  
 </details>
@@ -55,10 +55,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-  
-  <img src="images/Voiceover1.png" width="375px" alt="spraakfunctie">
-  
-  <img src="images/voiceover2.png" width="375px" alt="spraakfunctie1">
+
     
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
@@ -66,8 +63,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 
 </details>
-
-
 
 ## Breakdownschets (week 1)
 
