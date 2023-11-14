@@ -40,11 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-<img width="1439" alt="Schermafbeelding 2023-11-14 om 09 37 40" src="https://github.com/Maaikedevilder/Blok2/assets/150731226/0900c1b0-b6da-4022-a1f4-5bdc2afe7b85"> 
+ <img src="images/.png" width="375px" alt="dopperproducten">
+ 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="images/homepagina.png" width="375px" alt="homepagina">
+  <img src="images/pagina2.png" width="375px" alt="dopperproducten">
  
 </details>
 
