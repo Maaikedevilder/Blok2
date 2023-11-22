@@ -27,9 +27,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
-
-
-
 ## Je website
 
 <details open>
@@ -59,6 +56,9 @@ Hompagina van Dopper
     
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  <img src="../Blok2/images/Bevindingen.png" width="375px" alt="begin">
+  <img src="../Blok2/images/Bevindingen1.png" width="375px" alt="pagina1">
+   <img src="../Blok2/images/Bevindingen2.png" width="375px" alt="pagina2">
 
   
 
@@ -236,3 +236,9 @@ Hompagina van Dopper
   3. ...
 
 </details>
+
+
+
+grid  
+
+grid-template-columns ; repeat (auto-fill, minmax(20em, 1fr))

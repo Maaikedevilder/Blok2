@@ -1,0 +1,171 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+/* CUSTOM PROPERTIES */
+:root {
+    --color-page-background: #f4fdff; /* Achtergrondkleur van de hele pagina */
+    --color-banner-background: #fff; /* Achtergrondkleur van de banner met het logo */
+}
+
+
+body {
+   margin: 0;
+   background-color: var(--color-page-background);
+	}
+	
+/* Header-styling */
+
+header {
+	background-color: var(--color-banner-background); 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 0 !important; /* Toegevoegd !important */
+
+}
+
+/* Logo-styling */
+
+.logo {
+    margin-right: 20px;
+    max-height: 30px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%; /* Maakt de afbeelding 100% van de breedte van de container */
+    height: auto; /* Behoudt de juiste verhoudingen van de afbeelding */
+    display: block; /* Voorkomt extra ruimte onder de afbeelding */
+
+}
+
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; /* tekstkleur titel */
+}
+
+
+.banner-content h1 {
+    font-size: 1.8em; 
+    margin-bottom: 5px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.banner-content h2 {
+    font-size: 1.0em; 
+    margin-bottom: 20px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.banner-content button {
+    padding: 5px 10px;
+    font-size: 1.0em; 
+    background-color:  #ffea80; 
+    color: #1a3065; 
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.statistics article {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left; /* Tekst links uitlijnen */
+    font-family: 'Lexend', sans-serif;
+   
+}
+
+.statistics h3 {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.statistics p {
+    margin: 10px 0;
+    font-family: 'Lexend', sans-serif;
+    
+}
+
+/* Media query voor kleinere schermen */
+@media (max-width: 600px) {
+    .statistics article {
+        flex: 1 1 100%; /* Volledige breedte op kleinere schermen */
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.tappen-foto {
+    max-width: 100%;
+    height: auto;
+    order: 1;
+    max-height: 200px; 
+    width: auto
+
+}
+
+h4, p, button {
+    margin-bottom: 10px;
+    order: 0;
+    
+}
+
+h4 { font-family: 'Lexend', sans-serif;
+    font-size: 1.8em; 
+
+}
+
+/* Media query voor kleinere schermen */
+@media (max-width: 600px) { }
+    .flex-container {
+        flex-direction: column; /* Schakel naar een kolomindeling voor kleinere schermen */
+    }
+
+    .text-container {
+        padding: 10px; /* Aanpassen van de padding voor betere leesbaarheid op kleinere schermen */
+    }
+
+
