@@ -1,0 +1,425 @@
+/* CSS REMEDY */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* CUSTOM PROPERTIES */
+:root {
+    --color-page-background: #f4fdff;
+    --color-banner-background: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+main { background-color: #f4fdff;}
+
+/* Header */
+header {
+    background-color: var(--color-banner-background);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2; /* Geef de header een z-index van 2 */
+}
+
+/* Logo */
+.logo {
+    margin-right: 20px;
+    max-height: 30px;
+}
+
+.logo-text {
+    /* verbergen van de h1 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Hamburger Styles */
+
+.hamburger-label {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 3; /* Geef het hamburgerlabel een hogere z-index dan de header */
+}
+
+.hamburger-label img {
+    width: 40px;
+    margin-top: -15px;
+   
+}
+
+/* Verberg de standaard checkbox-stijlen */
+#hamburger {
+    display: none;
+}
+
+
+.hamburger-label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hamnav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    display: none; /* Verberg het menu standaard */
+    z-index: 2; /* Geef het hamburgermenu een z-index van 2, dezelfde als de header */
+}
+
+.hamnav li {
+    color: #1a3065;;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: 10px; /* Voeg wat ruimte toe tussen de menu-items */
+    
+    
+}
+
+/* Mediaquery voor kleinere schermen */
+@media (max-width: 600px) {
+    .hamburger-label {
+        display: block;
+    }
+
+    .hamnav {
+        flex-direction: column;
+        align-items: center; /* Centreer menu-items in het midden */
+    }
+
+    .hamnav li {
+        text-align: center; /* Centreer de tekst in het midden */
+    }
+
+    main {
+        padding-top: 60px;
+    }
+
+    /* Toon het menu wanneer checkbox is aangevinkt */
+    input[type="checkbox"]:checked + .hamnav {
+        display: flex;
+    }
+}
+
+
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+    margin-top: -60px; 
+  
+}
+
+.banner img {
+    width: 145%;
+    height: auto;
+    display: block;
+    left: -22%; /* Voeg deze regel toe om de afbeelding naar links te verschuiven */
+    position: relative; 
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 4px;
+    font-family: 'Lexend', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 1.0em;
+    margin-bottom: 20px;
+    font-family: 'Lexend', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    
+}
+
+.button1 {
+    padding: 15px 20px;
+    font-size: 1.0em;
+    background-color: #ffea80;
+    color: #1a3065;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+.button2,
+.button3 {
+    padding: 0.8em;
+    max-width: 15.0em;
+    font-size: 1.0em;
+    background-color: #ffffff;
+    color: #1a3065;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 2em;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Deel 2, flessen */
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    background-color: #f4fdff;
+
+}
+
+.statistics article {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left;
+    font-family: 'Lexend', sans-serif;
+   
+}
+
+.statistics h2 {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Lexend', sans-serif;
+    color: #1a3065;
+}
+
+.statistics p {
+    font-size: 1em;
+    margin: 5px 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+    .text-container {
+        padding: 10px;
+        color: #1a3065;
+    }
+
+   
+
+    h2,
+    p {
+        margin-bottom: 10px;
+        order: 0;
+        padding: 1.0em;
+        color: #1a3065;
+        
+    }
+
+    .button2,
+    .button3 {
+        padding: 0.8em;
+        max-width: 15.0em;
+        font-size: 1.0em;
+        background-color:#ffea80;
+        color: #1a3065;
+        cursor: pointer;
+        font-family: 'Lexend', sans-serif;
+        border-radius: 2em;
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+/* Deel 3, waterkraan */
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    background-color: #1a3065;
+}
+
+.text-container h2 {
+    padding: 20px 10px; /* 20px boven en onder, 10px aan de zijkanten */
+    font-size: 30px;
+    color: #1a3065;
+}
+
+
+
+/* allebei de titel  */
+
+
+.tappen-foto {
+    height: auto;
+    order: 1;
+    width: 100%;
+  
+}
+
+/* Deel 4, verras je collega's en relaties */
+.new-section {
+    background-color: #f4fdff;
+    color: #1a3065;
+    border-radius: 8px;
+}
+
+.new-section h2 { 
+    padding: 10px;
+    font-size: 30px;
+    color: #1a3065;
+
+}
+
+.new-section p { 
+    padding: 10px;
+    font-size: 15px;
+    color: #1a3065;
+
+}
+
+.new-section .button3 {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    padding: 1.0em;
+    max-width: 20.0em;
+    background-color: #ffea80;
+    font-size: 1.0em;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+#dopperflesfoto {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+/* Nieuwe pagina stijlen */
+
+body.producten-page  {
+    margin-top: 0; 
+}
+
+.producten {
+    text-align: center;
+    padding: 20px;
+    color: #1a3065;
+    background-color: #fff;
+    
+}
+
+.producten p {
+    font-size: 0.8em;
+    margin: 5px 0;
+
+}
+
+.verkooppunten-contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+ 
+}
+
+.verkooppunten-contact p {
+    font-size: 0.7em;
+    color: #1a3065;
+    margin: 0;
+    
+}
+
+.producten h3 {
+    font-size: 2em;
+    color: #1a3065;
+}
+
+.producten p.subtitle {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+a.specifieke-link {
+    padding: 0.5em 2em;
+    font-size: 1.0em;
+    background-color: #ffea80;
+    color: #1a3065;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+}
+
+/* verschillende doppers */ 
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-item {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 190px; /* dopper afbeelding wordt groter,blijft op dezelfde plek staan */
+    transition: transform 0.5s ease; 
+}
+
+.product-item img {
+    border-radius: 8px;
+    width: 100%; 
+    height: auto;
+    
+}
+/* title van dopper item */
+.product-item h3 {
+    font-size: 0.7em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 1.0em;
+    color: #1a3065;
+}
+
