@@ -53,17 +53,18 @@ Hompagina van Dopper
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
-<img src="../Blok2/readme-images/Voiceover1.png" width="375px" alt="begin">
-<img src="../Blok2/readme-images/voiceover2.png" width="375px" alt="begin">
+<img src="./readme-images/Voiceover1.png" width="375px" alt="begin">
+<img src="./readme-images/voiceover2.png" width="375px" alt="begin">
 
 Voice over werkt niet goed, leest niet als eerst de titel voor!
 
     
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-<img src="../Blok2/readme-images/Bevindingen.png" width="375px" alt="bladzijde1">
-<img src="../Blok2/readme-images/Bevindingen1.png" width="375px" alt="bladzijde2">
-<img src="../Blok2/readme-images/Bevindingen2.png" width="375px" alt="bladzijde3">
+
+<img src="./readme-images/Bevindingen.png" width="375px" alt="bladzijde1">
+<img src="./readme-images/Bevindingen1.png" width="375px" alt="bladzijde2">
+<img src="./readme-images/Bevindingen2.png" width="375px" alt="bladzijde3">
 
   
 
@@ -75,13 +76,13 @@ Voice over werkt niet goed, leest niet als eerst de titel voor!
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="../Blok2/readme-images/helepagina.png" width="375px" alt="breakdown van de hele pagina">
+   <img src="./readme-images/helepagina.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="./readme-images/header.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="./" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="./readme-images/homepage.png" width="375px" alt="homepage">
 
 </details>
 
@@ -127,17 +128,12 @@ Voice over werkt niet goed, leest niet als eerst de titel voor!
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+ 
 
 
   ### Verslag van meeting
@@ -190,13 +186,7 @@ Voice over werkt niet goed, leest niet als eerst de titel voor!
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  Feedback 
-
-  - Geen h1,h2,h3 onder elkaar gebruiken maar gebruik voor je voorpagina H2 & p
-  - head boven de body neerzetten
-  - geen gebruik maken van de Div
-  - Gebruik 1 link voor de font google 300,400 bijv. 
-
+ 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -207,10 +197,6 @@ Voice over werkt niet goed, leest niet als eerst de titel voor!
   - ...
 
 </details>
-
-
-
-
 
 ## Eindgesprek (week 5)
 
