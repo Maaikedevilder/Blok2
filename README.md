@@ -53,12 +53,17 @@ Hompagina van Dopper
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
+<img src="../Blok2/readme-images/Voiceover1.png" width="375px" alt="begin">
+<img src="../Blok2/readme-images/voiceover2.png" width="375px" alt="begin">
+
+Voice over werkt niet goed, leest niet als eerst de titel voor!
+
     
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  <img src="../Blok2/images/Bevindingen.png" width="375px" alt="begin">
-  <img src="../Blok2/images/Bevindingen1.png" width="375px" alt="pagina1">
-   <img src="../Blok2/images/Bevindingen2.png" width="375px" alt="pagina2">
+<img src="../Blok2/readme-images/Bevindingen.png" width="375px" alt="bladzijde1">
+<img src="../Blok2/readme-images/Bevindingen1.png" width="375px" alt="bladzijde2">
+<img src="../Blok2/readme-images/Bevindingen2.png" width="375px" alt="bladzijde3">
 
   
 
@@ -70,13 +75,13 @@ Hompagina van Dopper
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="../Blok2/readme-images/helepagina.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="./readme-images/header.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="./" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -94,13 +99,14 @@ Hompagina van Dopper
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+
+  Feedback 
+
+  - Geen h1,h2,h3 onder elkaar gebruiken maar gebruik voor je voorpagina H2 & p
+  - head boven de body neerzetten
+  - geen gebruik maken van de Div
+  - Gebruik 1 link voor de font google 300,400 bijv. 
 
 
   ### Verslag van meeting
@@ -112,8 +118,6 @@ Hompagina van Dopper
   - ...
 
 </details>
-
-
 
 
 
@@ -156,7 +160,12 @@ Hompagina van Dopper
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+ <img src="./readme-images/fout.png" width="375px" alt="homepagina1">
+ <img src="./readme-images/fout2.png" width="375px" alt="homepagina2">
+  <img src="./readme-images/Bevindingen1.png" width="375px" alt="homepagina2">
+
+  Alles ging in de war.
+
 
 </details>
 
@@ -168,19 +177,25 @@ Hompagina van Dopper
 
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
+  <img src="./readme-images/doppersonderelkaar.png" width="375px" alt="producten">
+  <img src="./readme-images/naastelkaar.png" width="375px" alt="producten">
+  <img src="./readme-images/hamburgermenu.png" width="375px" alt="producten">
+
+  Lang naar de code gekeken en mijn oude code weer teruggevonden. Ik heb het gelukkig weer rechts kunnen krijgen. De div zit er wel weer hier in. 
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Feedback 
+
+  - Geen h1,h2,h3 onder elkaar gebruiken maar gebruik voor je voorpagina H2 & p
+  - head boven de body neerzetten
+  - geen gebruik maken van de Div
+  - Gebruik 1 link voor de font google 300,400 bijv. 
 
 
   ### Verslag van meeting
@@ -231,9 +246,21 @@ Hompagina van Dopper
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  ( ChatGpT )
+
+  1.   html aria-label="Verkooppunten en contactinformatie"> <!-- extra context voor mensen met een beperking-->
+  2. left: -22%; /* Voeg deze regel toe om de afbeelding naar links te verschuiven */
+  3. /* Mediaquery voor kleinere schermen */
+@media (max-width: 600px) {
+    .hamburger-label {
+        display: block;
+    }
+  4.  z-index: 2; /* Geef het hamburgermenu een z-index van 2, dezelfde als de header */
+  5. .logo-text {
+    /* verbergen van de h1 */}
+    6. javascript deel
+
+
 
 </details>
 
