@@ -1,31 +1,542 @@
-/**************/
 /* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-
-
-
-
-
-/*********************/
 /* CUSTOM PROPERTIES */
-/*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    --color-page-background: #f4fdff;
+    --color-banner-background: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+main {
+    background-color: #f4fdff;
+}
+
+/* Header */
+header {
+    background-color: var(--color-banner-background);
+    padding: 0.6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    /* gpt*/
+}
+
+/* Logo */
+.logo {
+    margin-right: 1.2em;
+    max-height: 1.8em;
+}
+
+.logo-text {
+    /* verbergen van de h1, bron gpt */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Hamburger Styles */
+
+.hamburger-label {
+    position: absolute;
+    top: 1.25em;
+    right: 1.25em;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.hamburger-label img {
+    width: 2.5em;
+    margin-top: -1em;
+
+}
+
+/* Verberg checkbox */
+#hamburger {
+    display: none;
+}
+
+
+.hamburger-label {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hamnav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 1.25em;
+    display: none;
+    /* Verberg het menu standaard */
+    z-index: 2;
+    /* Geef het hamburgermenu een z-index van 2, dezelfde als de header */
+}
+
+.hamnav li {
+    color: #1a3065;
+    ;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: 1em;
+
+}
+
+
+.home .hamnav {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Mediaquery voor kleinere schermen, bron gpt  */
+@media (max-width: 600px) {
+    .hamburger-label {
+        display: block;
+    }
+
+    .hamnav {
+        flex-direction: column;
+        align-items: center;
+        /* Centreer menu-items in het midden */
+    }
+
+    .hamnav li {
+        text-align: center;
+        /* Centreer de tekst in het midden */
+    }
+
+    main {
+        padding-top: 4em;
+    }
+
+    /* Toon het menu wanneer checkbox is aangevinkt */
+    input[type="checkbox"]:checked+.hamnav {
+        display: flex;
+    }
 }
 
 
 
+/* Banner */
+
+.banner {
+    position: relative;
+    text-align: center;
+    margin-top: -60px;
 
 
-/****************/
-/* JOUW STYLING */
-/****************/
+}
 
-/* jouw code */
+.banner img {
+    width: 145%;
+    height: auto;
+    display: block;
+    left: -22%;
+    /* afbeelding links verschuiven, bron gpt  */
+    position: relative;
+}
 
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+}
+
+.banner-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 4px;
+    font-family: 'Lexend', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 1.0em;
+    margin-bottom: 20px;
+    font-family: 'Lexend', sans-serif;
+    color: #ffffff;
+    margin: 0;
+
+}
+
+.button1 {
+    padding: 1em 1.25em;
+    font-size: 1.0em;
+    background-color: #ffea80;
+    color: #1a3065;
+    border-radius: 1.5em;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+.button2,
+.button3 {
+    padding: 0.8em;
+    max-width: 15.0em;
+    font-size: 1.0em;
+    background-color: #ffffff;
+    color: #1a3065;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 2em;
+    display: block;
+    margin-top: 1.25em;
+    text-align: center;
+}
+
+/* Deel 2, flessen */
+.statistics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1.25em 0em;
+    background-color: #f4fdff;
+
+}
+
+.statistics article {
+    flex: 1;
+    max-width: 18.75em;
+    margin: 0.6em;
+    padding: 1.25em;
+    border: 0.1em solid #ddd;
+    border-radius: 0.5em;
+    text-align: left;
+    font-family: 'Lexend', sans-serif;
+}
+
+.statistics h2 {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 0.3em;
+    font-family: 'Lexend', sans-serif;
+    color: #1a3065;
+}
+
+.statistics p {
+    font-size: 1em;
+    margin: 0.3em 0em;
+    font-family: 'Lexend', sans-serif;
+}
+
+h2,
+p {
+    margin-bottom: 0.6em;
+    order: 0;
+    padding: 1.0em;
+
+}
+
+
+
+.button2,
+.button3 {
+    padding: 0.8em;
+    max-width: 15.0em;
+    font-size: 1.0em;
+    background-color: #ffea80;
+    color: #1a3065;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    border-radius: 2em;
+    display: block;
+    margin-top: 1.25em;
+    text-align: center;
+}
+
+
+/* Deel 3, waterkraan */
+
+.tappen-foto {
+    height: auto;
+    width: 100%;
+    
+}
+
+.text-container {
+    padding: 0.6em;
+    color: #ffffff;
+    background-color: #1a3065;
+}
+
+.flex-container {
+    flex-direction: column;
+    display: flex;
+}
+
+/* Deel 4, verras je collega's en relaties */
+
+/*titel "persoonlijke brand doppers" */
+.text-container h2 {
+    padding: 1.25em 1em;
+    font-size: 1.8em;
+    color: #ffffff;
+
+}
+
+
+/* Deel 4, verras je collega's en relaties */
+.new-section {
+    background-color: #f4fdff;
+    color: #1a3065;
+    border-radius: 0.5em;
+}
+
+.new-section h2 {
+    padding: 1em;
+    font-size: 1.8em;
+    color: #1a3065;
+}
+
+.new-section p {
+    padding: 1em;
+    font-size: 1em;
+    color: #1a3065;
+}
+
+
+.new-section .button3 {
+    display: block;
+    margin-top: 1.25em;
+    text-align: center;
+    padding: 1.0em;
+    max-width: 20.0em;
+    background-color: #ffea80;
+    font-size: 1.0em;
+    border-radius: 1.5em;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+}
+
+#dopperflesfoto {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+
+/* Nieuwe pagina stijlen */
+
+
+/* tekst onder de banner(3) */
+.Naastelkaar {
+    display: inline-block;
+    margin-right: 1.25em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Retourzin {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.producten {
+    text-align: center;
+    padding: 1.25em;
+    color: #1a3065;
+    background-color: #fff;
+
+}
+
+.producten p {
+    font-size: 0.8em;
+    margin: 5px 0;
+}
+
+.verkooppunten-contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.3em 0;
+
+
+}
+
+.verkooppunten-contact p {
+    font-size: 0.7em;
+    color: #1a3065;
+    margin: 0;
+
+
+}
+
+.producten h1 {
+    font-size: 2em;
+    color: #1a3065;
+}
+
+.producten p.subtitle {
+    font-size: 1.2em;
+    margin: 0.6em 0;
+}
+
+a.specifieke-link {
+    padding: 0.5em 2em;
+    font-size: 1.0em;
+    background-color: #ffea80;
+    color: #1a3065;
+    border-radius: 1.8em;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    display: inline-block;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+
+
+}
+
+/* verschillende doppers */
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1.25em;
+}
+
+.product-item {
+    text-align: center;
+    margin-bottom: 1.25em;
+    width: 11em;
+    /* dopper afbeelding wordt groter,blijft op dezelfde plek staan */
+    transition: transform 0.5s ease;
+}
+
+.product-item img {
+    border-radius: 0.5em;
+    width: 100%;
+    height: auto;
+
+}
+
+/* title van dopper item */
+.product-item h3 {
+    font-size: 0.7em;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
+}
+
+.price {
+    font-size: 1.0em;
+    color: #1a3065;
+}
+
+/* zwarte dopper css pagina*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+    background-color: #333;
+    ;
+}
+
+
+.kleine-tekst,
+h1,
+.prijs {
+    color: #ffffff;
+    padding: 1em;
+    margin: auto;
+
+}
+
+h1 { color: #ffffff;
+    }
+
+
+.product-grid h1 {
+    color: #000000; 
+    font-size: 1em;
+    
+}
+
+
+.kleine-tekst {
+    font-size: 0.6em;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+.prijs {
+    font-size: 1.25em;
+}
+
+#product-foto {
+    background-color: #333;
+    padding: 1.25em;
+    width: 100%;
+}
+
+/*knoppen*/
+
+/* knoppen */
+a.winkelmand {
+    padding: 0.5em 2em;
+    font-size: 1.0em;
+    background-color: #ffea80;
+    color: #1a3065;
+    border-radius: 1.8em;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    float: left;
+    margin: 0.5em;
+}
+
+a.Personaliseren {
+
+    padding: 0.5em 2em;
+    font-size: 1.0em;
+    background-color: #ffffff;
+    color: #1a3065;
+    border-radius: 1.8em;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    float: right;
+    margin: 0.5em;
+
+}
+
+/* informatie tekst dopper zwart*/
+
+.informatie-tekst {
+
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #333;
+    margin: 2em;
+    padding: 1em;
+}

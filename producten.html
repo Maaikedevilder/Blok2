@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="jouw naam">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title aria-label="Je bevind zich op de pagina met alle dopper flessen">producten</title>
+
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="producten-page">
+    <input type="checkbox" id="hamburger">
+    <label for="hamburger" class="hamburger-label">
+        <img src="./images/hamburgermenu.png" alt="Hamburger Icon">
+    </label>
+
+    <nav class="hamnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="producten.html">Producten</a></li>
+            <li>Voor bedrijven</li>
+            <li>Missie</li>
+            <li>Sluit je aan</li>
+        </ul>
+    </nav>
+
+    <header>
+        <img src="./images/blauwelogodopper.png" alt="Dopper Logo" class="logo">
+        <span class="logo menu-icon">
+            <span class="bar"></span>
+        </span>
+    </header>
+
+    <main>
+        <!-- dopperfles informatie -->
+        <section class="producten text-container">
+            <p class="Naastelkaar">Check de levertijden</p>
+            <p class="Naastelkaar">Check gratis verzending</p>
+            <p class="Retourzin">Lees over retour en garantie</p>
+            <section class="verkooppunten-contact" aria-label="Verkooppunten en contactinformatie">
+                <!-- extra context voor mensen met een beperking, bron gpt -->
+                <p>VERKOOPPUNTEN</p>
+                <p>CONTACT</p>
+            </section>
+
+            <h1 aria-label="Je bevind je op de pagina met alle dopper flessen">Onze flessen</h1>
+            <p>Maak een einde aan verpakt water deze feestdagen. Geef een Dopper cadeau.</p>
+            <a aria-label="filters aanpassen" href="productenlink" class="specifieke-link">+ filters</a>
+        </section>
+        <!-- dopper flessen -->
+        <section class="product-grid" aria-label="Producten">
+            <article class="product-item">
+                <img src="./images/dopper1.png" alt="Dopper Product">
+                <h1 aria-label="Dopper Steel (490 ml) - Carrier Bundle met de kleur grijs">Dopper Steel (490 ml) -
+                    Carrier Bundle</h1>
+                <p class="price">€ 24,95</p>
+            </article>
+
+            <article class="product-item">
+                <a href="dopper-insulated-1l-blazing-black.html">
+                    <img src="./images/dopper2.png" alt="Dopper Product 2">
+                    <h1 aria-label="Dopper Insulated (1L) - Blazing Black met de kleur zwart">Dopper Insulated (1L) -
+                        Blazing Black</h1>
+                    <p class="price">€ 44,95</p>
+                </a>
+            </article>
+
+            <article class="product-item">
+                <img src="./images/rodedopper.png" alt="Dopper Product 3">
+                <h1 aria-label="Dopper Insulated (580 ml) - Deep Coral met de kleur rood">Dopper Insulated (580 ml) -
+                    Deep Coral</h1>
+                <p class="price">€35,95</p>
+                </a>
+            </article>
+
+
+            <article class="product-item">
+                <img src="./images/lichtblauwedopper.png" alt="Dopper Product 4">
+                <h1 aria-label="Dopper Insulated (580 ml) - Bottlenose Blue met de kleur lichtblauw">Dopper Insulated
+                    (580 ml) - Bottlenose Blue</h1>
+                <p class="price">€35,95</p>
+                </a>
+            </article>
+        </section>
+    </main>
+
+    <script defer src="scripts/script.js"></script>
+</body>
+
+</html>
